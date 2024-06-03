@@ -3,4 +3,5 @@ export interface TaskType {
     text: string;
     createdAt?: Date;
     isChecked?: boolean;
+    userId: string
 }
